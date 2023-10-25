@@ -1,6 +1,6 @@
 # Dodge
 
-A 2D game made with javafx. Made in 2022 for a school project.
+A 2D game made with javafx. Made in 2022 for a school project -> first time working with a project this size, so it's a bit messy
 
 Uses maven to build the project and java version 17. 
 
