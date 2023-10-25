@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exampleproject.highscoreSceneController">
+   <children>
+      <ImageView fitHeight="598.0" fitWidth="1049.0" layoutX="-8.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@space.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="284.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@title_highscore.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="backButton" fitHeight="34.0" fitWidth="24.0" layoutX="35.0" layoutY="528.0" onMouseClicked="#switchBackToHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Arrow_left.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="backButton" fitHeight="25.0" fitWidth="68.0" layoutX="71.0" layoutY="533.0" onMouseClicked="#switchBackToHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="16.0" layoutX="115.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@highscore_images/1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="30.0" layoutX="110.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@highscore_images/2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="110.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@highscore_images/3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="110.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@highscore_images/4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="110.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@highscore_images/5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="110.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@highscore_images/6.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="110.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@highscore_images/7.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="110.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@highscore_images/8.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="26.0" layoutX="110.0" layoutY="430.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@highscore_images/9.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="23.0" fitWidth="34.0" layoutX="101.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@highscore_images/10.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="label0" layoutX="165.0" layoutY="70.0">
+         <font>
+            <Font name="Phosphate Inline" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9200000166893005" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="1.0" green="0.9982447028160095" blue="0.009999999776482582" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.7438297867774963" blue="0.9200000166893005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="label1" layoutX="165.0" layoutY="115.0">
+         <font>
+            <Font name="Phosphate Inline" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9200000166893005" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="1.0" green="0.9982447028160095" blue="0.009999999776482582" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.7438297867774963" blue="0.9200000166893005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="label2" layoutX="165.0" layoutY="160.0">
+         <font>
+            <Font name="Phosphate Inline" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9200000166893005" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="1.0" green="0.9982447028160095" blue="0.009999999776482582" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.7438297867774963" blue="0.9200000166893005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="label3" layoutX="165.0" layoutY="205.0">
+         <font>
+            <Font name="Phosphate Inline" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9200000166893005" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="1.0" green="0.9982447028160095" blue="0.009999999776482582" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.7438297867774963" blue="0.9200000166893005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="label4" layoutX="165.0" layoutY="250.0">
+         <font>
+            <Font name="Phosphate Inline" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9200000166893005" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="1.0" green="0.9982447028160095" blue="0.009999999776482582" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.7438297867774963" blue="0.9200000166893005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="label5" layoutX="165.0" layoutY="295.0">
+         <font>
+            <Font name="Phosphate Inline" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9200000166893005" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="1.0" green="0.9982447028160095" blue="0.009999999776482582" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.7438297867774963" blue="0.9200000166893005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="label6" layoutX="165.0" layoutY="340.0">
+         <font>
+            <Font name="Phosphate Inline" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9200000166893005" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="1.0" green="0.9982447028160095" blue="0.009999999776482582" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.7438297867774963" blue="0.9200000166893005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="label7" layoutX="165.0" layoutY="385.0">
+         <font>
+            <Font name="Phosphate Inline" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9200000166893005" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="1.0" green="0.9982447028160095" blue="0.009999999776482582" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.7438297867774963" blue="0.9200000166893005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="label8" layoutX="165.0" layoutY="430.0">
+         <font>
+            <Font name="Phosphate Inline" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9200000166893005" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="1.0" green="0.9982447028160095" blue="0.009999999776482582" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.7438297867774963" blue="0.9200000166893005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="label9" layoutX="165.0" layoutY="475.0">
+         <font>
+            <Font name="Phosphate Inline" size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9200000166893005" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007518796992481203">
+                     <color>
+                        <Color red="1.0" green="0.9982447028160095" blue="0.009999999776482582" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color green="0.7438297867774963" blue="0.9200000166893005" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>

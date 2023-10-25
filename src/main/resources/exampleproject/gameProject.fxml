@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="768.0" style="-fx-background-color: Blue;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exampleproject.gameController">
+   <children>
+      <ImageView fitHeight="833.0" fitWidth="1198.0" layoutX="-173.0" layoutY="-67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@space.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerImageView" fitHeight="250.0" fitWidth="250.0" layoutX="273.0" layoutY="120.0" onMouseClicked="#rotatePlayerImage" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Big_iron-man.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="62.0" layoutX="544.0" layoutY="226.0" onMouseClicked="#rightSwitchButton" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@arrow_left.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fx:id="playButton" fitHeight="150.0" fitWidth="200.0" layoutX="291.0" layoutY="423.0" onMouseClicked="#playGameBtn" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@play_button.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="62.0" layoutX="203.0" layoutY="226.0" onMouseClicked="#leftSwitchButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@arrow_left.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="291.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Title.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="highScoresButton" fitHeight="35.0" fitWidth="214.0" layoutX="282.0" layoutY="497.0" onMouseClicked="#switchToHighScoreScene" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Highscores_small.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
